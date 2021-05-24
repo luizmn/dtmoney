@@ -35,7 +35,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         background: var(--background);
-        -webkit-font-smoothing: antiAliased;
+        -webkit-font-smoothing: antialiased;
     }
 
     body, input, textarea, button {
@@ -54,6 +54,5 @@ export const GlobalStyle = createGlobalStyle`
     [disabled] {
         opacity: 0.6;
         cursor: not-allowed;
-
     }
-`
+`;
